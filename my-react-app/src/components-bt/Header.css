@@ -1,0 +1,81 @@
+/* .dashboard-header-bt {
+  margin-bottom: 30px;
+} */
+
+.pack-info-bt {
+  background: #38559A;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.stats-container-bt {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-card-bt {
+  background: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.stat-card-bt h6 {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.stat-card-bt h6::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: -15px;
+  width: 30px;
+  height: 3px;
+  background: #41C9A5;
+}
+
+.stat-content-bt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.label-bt {
+  color: #333;
+  font-weight: 500;
+}
+
+.value-bt {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #38559A;
+}
+
+.value-bt.accent-bt {
+  color: #41C9A5;
+}
+
+.accent-bg-bt {
+  background: #41C9A5;
+  color: white;
+}
+
+.accent-bg-bt h6,
+.accent-bg-bt .label-bt,
+.accent-bg-bt .value-bt {
+  color: white;
+}
+
+.accent-bg-bt h6::after {
+  background: white;
+}
