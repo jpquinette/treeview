@@ -89,9 +89,9 @@ function CatalogContentBis() {
           </div>
         </div>
         <div className="footer-buttons-bt">
-          <button className="btn-bt btn-secondary-bt" onClick={() => window.history.back()}>
+          {/* <button className="btn-bt btn-secondary-bt" onClick={() => window.history.back()}>
             Retour
-          </button>
+          </button> */}
           <button className="btn-bt btn-primary-bt" onClick={handleStatUpdate}>
             Valider
           </button>
